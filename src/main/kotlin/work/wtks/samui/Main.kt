@@ -32,7 +32,7 @@ object Main : NativeKeyListener {
 
         GlobalScreen.addNativeKeyListener(this)
 
-        nc = Nats.connect("nats://n3.home.wtks.work:4222")
+        nc = Nats.connect("nats://192.168.100.2:4222")
 
         try {
             SystemTray.getSystemTray().add(TrayIcon(

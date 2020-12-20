@@ -11,7 +11,6 @@ data class AirconState(
     val temp: Int = 24,
     val vol: Vol = Vol.Auto,
     val dir: Dir = Dir.Auto
-
 ) {
     @Serializable
     enum class Mode {
